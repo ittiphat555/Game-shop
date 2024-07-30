@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="m3.xsl"?>
+<!DOCTYPE book [
+<!ELEMENT sales (sale+)>
+<!ELEMENT sale (ID, product, price, quantity, dateOfSale)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT product (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT dateOfSale (#PCDATA)>
+
+
+]>
+
+
+<sales>
+    <sale>
+        <ID>01</ID>
+        <product>Demonologist</product>
+        <price>350</price>
+        <quantity>3</quantity>
+        <dateOfSale>2024-06-12</dateOfSale>
+    </sale>
+    <sale>
+        <ID>02</ID>
+        <product>Home Sweet Home</product>
+        <price>359</price>
+        <quantity>5</quantity>
+        <dateOfSale>2024-05-12</dateOfSale>
+    </sale>
+    <sale>
+        <ID>03</ID>
+        <product>Resident Evil 4</product>
+        <price>1399</price>
+        <quantity>4</quantity>
+        <dateOfSale>2024-06-25</dateOfSale>
+    </sale>
+    <sale>
+        <ID>04</ID>
+        <product>The Forest</product>
+        <price>289</price>
+        <quantity>5</quantity>
+        <dateOfSale>2024-06-25</dateOfSale>
+    </sale>
+    <sale>
+        <ID>05</ID>
+        <product>Resident Evil Village</product>
+        <price>1289</price>
+        <quantity>6</quantity>
+        <dateOfSale>2024-07-08</dateOfSale>
+    </sale>
+</sales>

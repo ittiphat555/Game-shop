@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="m2.xsl"?>
+<!DOCTYPE book [
+<!ELEMENT customers (customer+)>
+<!ELEMENT customer (CustomerID, firstName, lastName, age, phone)>
+<!ELEMENT CustomerID (#PCDATA)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+
+]>
+
+
+<customers>
+    <customer>
+        <CustomerID>1</CustomerID>
+        <firstName>John</firstName>
+        <lastName>Smith</lastName>
+        <age>21</age>
+        <phone>0851125903</phone>
+    </customer>
+    <customer>
+        <CustomerID>2</CustomerID>
+        <firstName>Emily</firstName>
+        <lastName>Johnson</lastName>
+        <age>19</age>
+        <phone>0852246930</phone>
+    </customer>
+    <customer>
+        <CustomerID>3</CustomerID>
+        <firstName>Michael</firstName>
+        <lastName>Brown</lastName>
+        <age>20</age>
+        <phone>0952236509</phone>
+    </customer>
+    <customer>
+        <CustomerID>4</CustomerID>
+        <firstName>Sarah</firstName>
+        <lastName>Davis</lastName>
+        <age>19</age>
+        <phone>0912265840</phone>
+    </customer>
+    <customer>
+        <CustomerID>5</CustomerID>
+        <firstName>William</firstName>
+        <lastName>Taylor</lastName>
+        <age>19</age>
+        <phone>0875596321</phone>
+    </customer>
+</customers>

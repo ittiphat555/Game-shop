@@ -1,0 +1,47 @@
+<?xml-stylesheet type="text/xsl" href="m4.xsl"?>
+<!DOCTYPE sales [
+  <!ELEMENT sales (sale+)>
+  <!ELEMENT sale (ID, name, product, price_quantity, date_of_sale)>
+  <!ELEMENT ID (#PCDATA)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT product (#PCDATA)>
+  <!ELEMENT price_quantity (#PCDATA)>
+  <!ELEMENT date_of_sale (#PCDATA)>
+]>
+<sales>
+  <sale>
+    <ID>01</ID>
+    <name>John Smith</name>
+    <product>The Forest</product>
+    <price_quantity>289/1</price_quantity>
+    <date_of_sale>09/06/24</date_of_sale>
+  </sale>
+  <sale>
+    <ID>02</ID>
+    <name>Emily Johnson</name>
+    <product>Demonologist</product>
+    <price_quantity>350/1</price_quantity>
+    <date_of_sale>24/06/24</date_of_sale>
+  </sale>
+  <sale>
+    <ID>03</ID>
+    <name>Michael Brown</name>
+    <product>Resident Evil Village</product>
+    <price_quantity>1289/1</price_quantity>
+    <date_of_sale>27/06/24</date_of_sale>
+  </sale>
+  <sale>
+    <ID>04</ID>
+    <name>Sarah Davis</name>
+    <product>Resident Evil4</product>
+    <price_quantity>1399/1</price_quantity>
+    <date_of_sale>05/07/24</date_of_sale>
+  </sale>
+  <sale>
+    <ID>05</ID>
+    <name>William Taylor</name>
+    <product>Home Sweet Home</product>
+    <price_quantity>359/1</price_quantity>
+    <date_of_sale>12/07/24</date_of_sale>
+  </sale>
+</sales>

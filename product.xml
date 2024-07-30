@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="m.xsl"?>
+<products>
+    <product>
+        <ID>01</ID>
+        <productName>Demonologist</productName>
+        <detail>เกมนี้อาจมีเนื้อหาที่ไม่เหมาะสำหรับทุกวัย: เลือด, ความรุนแรง, เนื้อหาสำหรับผู้ใหญ่ทั่วไป</detail>
+        <price>350</price>
+        <creator>Endnight Games Ltd</creator>
+    </product>
+    <product>
+        <ID>02</ID>
+        <productName>Home Sweet Home</productName>
+        <detail>เกมนี้อาจมีเนื้อหาที่ไม่เหมาะสำหรับทุกวัย: เลือด, ความรุนแรง, เนื้อหาสำหรับผู้ใหญ่ทั่วไป</detail>
+        <price>359</price>
+        <creator>YGGDRAZIL GROUP CO.,LTD</creator>
+    </product>
+    <product>
+        <ID>03</ID>
+        <productName>Resident Evil 4</productName>
+        <detail>เกมนี้อาจมีเนื้อหาที่ไม่เหมาะสำหรับทุกวัย: เลือด, ความรุนแรง, เนื้อหาสำหรับผู้ใหญ่ทั่วไป</detail>
+        <price>1399</price>
+        <creator>capcom</creator>
+    </product>
+    <product>
+        <ID>04</ID>
+        <productName>The Forest</productName>
+        <detail>เกมนี้อาจมีเนื้อหาที่ไม่เหมาะสำหรับทุกวัย: เลือด, ความรุนแรง, เนื้อหาสำหรับผู้ใหญ่ทั่วไป</detail>
+        <price>289</price>
+        <creator>Endnight Games Ltd</creator>
+    </product>
+    <product>
+        <ID>05</ID>
+        <productName>Resident Evil Village</productName>
+        <detail>เกมนี้อาจมีเนื้อหาที่ไม่เหมาะสำหรับทุกวัย: เลือด, ความรุนแรง, เนื้อหาสำหรับผู้ใหญ่ทั่วไป</detail>
+        <price>1289</price>
+        <creator>capcom</creator>
+    </product>
+</products>
